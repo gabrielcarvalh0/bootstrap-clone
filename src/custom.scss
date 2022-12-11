@@ -1,0 +1,97 @@
+@import "./variables";
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+// @each $color, $value in $colors {
+//   .bg-#{$color } {
+//     background-color: $value !important;
+//   }
+//   .text-#{$color} {
+//     color: $value !important;
+//   }
+// }
+
+$font-family-sans-serif:
+  // Cross-platform generic font family (default user interface font)
+  system-ui,
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Windows
+  "Segoe UI",
+  // Android
+  Roboto,
+  // Basic web fallback
+  "Helvetica Neue",
+  Arial,
+  // Linux
+  "Noto Sans",
+  "Liberation Sans",
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($indigo, 0.5));
+
+$grad: radial-gradient(
+  circle,
+  rgba(255, 199, 243, 1) 0%,
+  rgba(163, 248, 255, 0.5637605383950455) 100%
+);
+
+body {
+  background-color: $white;
+  .bd-navbar {
+    padding: 0.75rem 0;
+    background-color: #930a0a;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(var(--bd-violet-rgb), 1),
+      rgba(var(--bd-violet-rgb), 0.95)
+    );
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+  }
+  .bd-masthead {
+    padding: 3rem 0;
+    background-image: $grad;
+
+    h1 {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+    .lead {
+      font-size: 1.5rem;
+      color: #495057;
+    }
+    .bd-btn-lg {
+      padding: 1rem 2rem;
+    }
+  }
+  .bd-code-snippet {
+    margin: 0;
+    border-radius: 0.5rem;
+  }
+  @media (min-width: 992px) {
+    .bd-masthead .highlight {
+      padding-right: 4rem;
+    }
+  }
+  .highlight {
+    position: relative;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 1.23rem 3rem;
+    margin-bottom: 1rem;
+    background-color: #d9d9d9;
+  }
+  .masthead-notice {
+    background-color: #ffe484;
+    box-shadow: inset 0 -1px 1px rgba($dark, 0.15),0 0.25rem 1.5rem rgba($white, 0.75);
+}
+}
