@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React DoWhile App" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" />
+    <img alt="React DoWhile App" widht="150" height="130" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" />
     <br>
     Bootstrap React Clone 
 </h1>
