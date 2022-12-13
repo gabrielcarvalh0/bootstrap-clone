@@ -32,7 +32,7 @@
 <p align="center">
 <p>Exemplo do projeto</p>
 
-  <img alt="Demo on APP node JS" src="https://res.cloudinary.com/dydwaeqqy/image/upload/v1670787499/page-bootstrap_x5krac.png">
+  <img alt="Demo on APP node JS" src="https://res.cloudinary.com/dydwaeqqy/image/upload/v1670890301/page-bootstrap_pimelf.png">
 </p>
 
 ## :rocket: Technologies
