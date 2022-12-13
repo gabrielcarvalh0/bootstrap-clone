@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React DoWhile App" widht="140" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" />
+    <img alt="" widht="140" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" />
     <br>
     Bootstrap React Clone 
 </h1>
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-<a target="_blank" href="https://web-heat.vercel.app/">Exemplo do projeto</a>
+<p>Exemplo do projeto</p>
 
   <img alt="Demo on APP node JS" src="https://res.cloudinary.com/dydwaeqqy/image/upload/v1670787499/page-bootstrap_x5krac.png">
 </p>
