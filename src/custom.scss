@@ -86,10 +86,17 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
-    padding: 1.23rem 3rem;
+    padding: 1.23rem 1.23rem;
     margin-bottom: 1rem;
     background-color: #d9d9d9;
   }
+  .chroma .language-bash .line::before, .chroma .language-sh .line::before {
+    color: #777;
+    content: "$ ";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
   .masthead-notice {
     background-color: #ffe484;
     box-shadow: inset 0 -1px 1px rgba($dark, 0.15),0 0.25rem 1.5rem rgba($white, 0.75);

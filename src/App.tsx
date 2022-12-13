@@ -43,9 +43,7 @@ function App() {
                     {" "}
                     <div className="bd-clipboard"> </div>
                     <div className="highlight">
-                      <div className="position-absolute start-0 ms-4">
-                        <span className="fs-6 text-gray-200 fw-normal opacity-80">$</span>
-                      </div>
+                  
                       <pre className="chroma m-0">
                         <code className="language-sh" data-lang="sh">
                           <span className="line">
